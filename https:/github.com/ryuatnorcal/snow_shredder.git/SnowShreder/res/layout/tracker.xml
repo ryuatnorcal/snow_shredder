@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+	<TextView 
+	    android:id="@+id/text_speed"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Current Speed"
+	    android:textColor="#ffffff" 
+	    android:textSize="25dp"/>
+	
+    <TextView 
+        android:id="@+id/text_cur_speed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="onClickBack"
+        android:text="Go Back to Menu"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Map View"
+        android:textColor="#ffffff" 
+        android:onClick="onClickMap"/>
+
+</LinearLayout>

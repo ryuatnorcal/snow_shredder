@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/snow"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Snow Shredder"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="65dp" />
+    <Button android:id="@+id/google_login_button" android:layout_width="300dp" android:layout_height="60dp" android:layout_marginTop="31dp" android:background="@drawable/google" android:onClick="googleAuth"/>
+    <Button android:id="@+id/twitter_login_button" android:layout_width="300dp" android:layout_height="60dp" android:background="@drawable/twitter" android:onClick="facebookAuth"/>
+    <Button android:id="@+id/facebook_login_button" android:layout_width="300dp" android:layout_height="60dp" android:background="@drawable/facebook" android:onClick="twitterAuth"/>
+    <Button android:id="@+id/btn_next" android:layout_width="300dp" android:layout_height="60dp" android:layout_marginTop="11dp" android:background="@android:color/transparent" android:onClick="onClickNext" android:text="-- or -- \n Skip Login"/>
+
+</LinearLayout>
